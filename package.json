@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-uban.dev",
+  "version": "1.0.0",
+  "description": "THIS IS A WEBSITE FOR UNBANNING OF ANY SOCIAL MEDIA ACCOUNT",
+  "main": "emailsend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BY DRENOX-DEV",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^7.0.5"
+  }
+}
