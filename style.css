@@ -391,10 +391,10 @@ nav{
         width: 80vw;
     }
     .modal-content{
-        width: 70%;
-        margin-left: -1px;
-        margin-right: 20px;
-        left: 5;
+        width: 85%;
+        margin-left: -3px;
+        margin-right: 40px;
+        /* left: 5; */
         /* margin-right: -60px; */
     }
 }
