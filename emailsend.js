@@ -34,7 +34,10 @@ UnbanBtn.addEventListener("click", async (e) => {
     // content.style.display = "none"
   }else if(pin === ""){
     request.style.display = "block"
-      request.textContent = "Incorrect pls purchase premuim"
+    setTimeout(() => {
+            request.textContent = "Incorrect pls purchase premuim"
+    },3000)
+
     pinvalue.style.display = "none"
     modalBtn.style.display = "none"
     closeBtn.style.display = "block"
