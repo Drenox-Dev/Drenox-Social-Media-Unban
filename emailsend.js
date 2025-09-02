@@ -34,7 +34,7 @@ UnbanBtn.addEventListener("click", async (e) => {
     // content.style.display = "none"
   }else{
     request.style.display = "block"
-      request.textContent = "Incorrect Pls dm t.me/the_incernate to Get access"
+      request.textContent = "Incorrect pls purchase premuim"
     pinvalue.style.display = "none"
     modalBtn.style.display = "none"
     closeBtn.style.display = "block"
